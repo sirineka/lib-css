@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Lib CSS</title>
+    <script src="https://kit.fontawesome.com/4de17afbea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="lib.css" />
+    <style>
+        a{
+            text-decoration: none;
+            border-radius: 8%;
+        }
+        li{
+            list-style: none;
+        }
+       
+        .bg-img-2{
+            background-image: url('/image/dandelion-g92630b1bc_1920.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 300px;
+            background-attachment: fixed;
+        }
+
+        .bg-img-1{
+            background-image: url('/image/flowers-g32c223de9_640.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 300px;
+            background-attachment: fixed;
+        }
+        .bg-img{
+            background-image: url('/image/higan-cherry-gc73fcccb8_1920.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 300px;
+            background-attachment: fixed;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .w-75pc{
+            width: 75%;
+        }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <header class="lib-top">
+      <!--nav desktop-->
+      <nav id="burgerBtn" class="lib-show lib-bar lib-white">
+       <a href="#" class="lib-bar-item lib-button lib-right lib-hide-large lib-hide-medium">&#9776</a>
+        <a href="#HOME" class="lib-bar-item lib-button lib-hide-small">HOME</a>
+        <a href="#ABOUT" class="lib-bar-item lib-button lib-hide-small">ABOUT</a>
+        <a href="#PORTFOLIO" class="lib-bar-item lib-button lib-hide-small">PORTFOLIO</a>
+        <a href="#CONTACT" class="lib-bar-item lib-button lib-hide-small">CONTACT</a>
+      </nav>
+
+      <!--nav mobile-->
+      <nav id="mobileNav" class="lib-bar-block lib-white lib-hide">
+        <a href="#HOME" class="lib-bar-item lib-button">HOME</a>
+        <a href="#ABOUT" class="lib-bar-item lib-button">ABOUT</a>
+        <a href="#PORTFOLIO" class="lib-bar-item lib-button">PORTFOLIO</a>
+        <a href="#CONTACT" class="lib-bar-item lib-button">CONTACT</a>
+      </nav>
+    </header>
+
+    <!--slider-->
+    <section id="HOME" class="bg-img lib-display-container">
+        <div class="lib-display-middle lib-animate-opacity">
+            <span class="lib-black lib-padding-large">MY WEBSITE LOGO</span>
+
+            </div>
+
+
+    </section>
+
+    <!--about-->
+    <section id="ABOUT" class="lib-container lib-animate-zoom">
+        <H3 class="lib-center">ABOUT</H3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dignissimos! Earum, libero? Excepturi unde dolorem cupiditate, nemo provident ipsam reprehenderit modi aliquam neque repellat expedita facere dolor necessitatibus temporibus placeat corrupti architecto alias reiciendis odio. Eaque, molestias! Sint quam esse ratione iure corrupti ab voluptates itaque eum impedit provident iste qui dolore minima soluta harum hic pariatur, optio nemo omnis, aliquid inventore nesciunt dolores? Facere voluptas ut beatae nemo repellat hic veritatis dolorem laboriosam deserunt ducimus ea quis animi, a inventore eum! Deserunt optio quaerat ipsam quas alias esse repellat labore quasi laboriosam, aliquid provident totam ea fugit, dignissimos enim blanditiis est possimus cum sed nemo non libero sint voluptas exercitationem. Inventore, nobis laboriosam, iste ipsam impedit minima porro voluptates eaque, enim harum quod dicta!</p>
+        <div class="lib-row">
+            <div class="lib-col m6 lib-padding-large">
+                <img class="lib-image" src="./image/pine-ga5c389c54_640.jpg" alt="feuilles vertes" loading="lazy">
+            </div>
+            <div class="lib-col m6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nostrum, harum consequuntur a temporibus delectus dolore dolor. Alias, repudiandae maxime. Ipsam reprehenderit facere laboriosam deserunt reiciendis. Exercitationem deserunt sunt totam magni mollitia ut quia sequi hic. In harum nulla provident? Quod est officia reiciendis eveniet quo ad earum iure tempora dignissimos at nulla, iusto rerum?</p>
+            </div>
+        </div>
+        <!--evaluation-->
+        <div id="evaluation">
+            <h4>HTML</h4>
+            <div class="lib-light-grey">
+                <div class="lib-container lib-dark-grey lib-center" style="width: 95%">95%</div>
+
+            </div>
+            <h4>css</h4>
+            <div class="lib-light-grey">
+                <div class="lib-container lib-dark-grey lib-center" style="width: 75%">75%</div>
+
+            </div>
+            <h4>JAVASCRIPT</h4>
+            <div class="lib-light-grey">
+                <div class="lib-container lib-dark-grey lib-center" style="width: 50%">5%</div>
+        </div>
+        <!--count-->
+        <div id="count" class="lib-row lib-center lib-dark-grey lib-padding-24 lib-margin-top">
+            <div class="lib-col m3">
+                <p class="lib-xlarge">16+</p>
+                <span>TEAM</span>
+            </div>
+            <div class="lib-col m3">
+                <p class="lib-xlarge">90+</p>
+                <span>DAYS</span>
+            </div>
+            <div class="lib-col m3">
+                <p class="lib-xlarge">3+</p>
+                <span>MASTERS</span>
+            </div>
+            <div class="lib-col m3">
+                <p class="lib-xlarge">150+</p>
+                <span>HAPPY CLIENTS</span>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+    <section id="PORTFOLIO">
+        <div class="bg-img-1 lib-display-container">
+            <div class="lib-display-middle lib-animate-opacity">
+            <span class="lib-padding-large lib-xxlarge lib-text-white lib-animate-zoom">PORTFOLIO</span>
+            </div>
+        </div>
+        <div id="portfolio-text" class="lib-center"     style="margin: 5em;">
+                <h2 class="lib-xlarge">MY WORK</h2>
+                <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore laboriosam officia maxime delectus tempora dolor, illum quas dolorem. Ducimus laboriosam doloremque nam iure corrupti sed?</em>
+        </div>
+        <div class="lib-row lib-padding">
+            <div class="lib-col m3" >
+            <img  src="./image/avenue-g2befcce4b_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+        
+            <div class="lib-col m3 ">
+            <img src="./image/flowers-gabed85501_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+          
+
+            <div class="lib-col m3 ">
+            <img src="./image/river-g89d0c1b32_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+           
+
+            <div class="lib-col m3 ">   
+            <img  src="./image/river-g81b4db00d_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+        </div>
+
+        <div class="lib-row lib-padding">
+            <div class="lib-col m3" >
+            <img  src="./image/avenue-g2befcce4b_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+        
+            <div class="lib-col m3 ">
+            <img src="./image/flowers-gabed85501_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+          
+
+            <div class="lib-col m3 ">
+            <img src="./image/river-g89d0c1b32_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+           
+
+            <div class="lib-col m3 ">   
+            <img  src="./image/river-g81b4db00d_640.jpg" style="width: 100%; border: white solid .5em;">
+            </div>
+        </div>
+      
+        <div class="lib-center lib-animate-opacity lib-margin-bottom">
+            <a href="#" class="lib-gray lib-padding-large lib-text-white ">ADD MORE</a>
+            </div>
+
+    </section>
+
+      <!--contact-->
+        <section id="CONTACT">
+            <div class="bg-img-2 lib-display-container">
+                <div class="lib-display-middle lib-animate-opacity">
+                <span class="lib-padding-large lib-xxlarge lib-text-white lib-animate-zoom">CONTACT</span>
+                </div>
+            </div>
+
+            <div class="adress">
+                <img class="adress-img" src="./image/pedestrians-g4ee16f0ad_640.jpg">
+                <ul>
+                    <li class="contact-adress"><i class="fa-solid fa-phone"></i>  Phone: +00151515</li>
+                    <li class="contact-adress"></li>
+                    <li class="contact-adress"></li>
+                </ul> 
+
+            </div>
+    </section>
+
+  
+    <!--footer-->
+    <footer></footer>
+    <script>
+        // on créer la fonction pour afficher/masquer le menu mobile
+        function toggleleMobileMenu(){
+            //on déclare la variable pour l'objet mobileNav
+            let mobNav = document.getElementById("mobileNav");
+            //on ajoute ou on enlève la class lib-show à l'objet mobileNav
+            mobNav.classList.toggle("lib-show");
+        }
+        //on affecte la fonction
+        //au bouton burger
+        document.getElementById("burgerBtn").addEventListener("click", function(){
+            toggleleMobileMenu()
+        })
+    </script>
+  </body>
+</html>
